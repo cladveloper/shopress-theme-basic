@@ -1,0 +1,42 @@
+{
+    "name": "Shopress Theme 1",
+    "description": "Tema moderno 2020, pensando en el uso actual con teléfonos y el fenómenos de los emojis",
+    "image": "",
+    "author": "Claudio Matus Rozas",
+    "components": [{
+        "name": "Slider",
+        "icon": "",
+        "page": "index",
+        "fields": [{
+            "name": "title",
+            "type": "text"
+        },{
+            "name": "imageCover",
+            "type": "image"
+        },{
+            "name": "description",
+            "type": "text"
+        }, {
+            "name": "btnText",
+            "type": "text"
+        }]
+    }, {
+        "name": "Detalles del sitio",
+        "icon": "",
+        "page": "main",
+        "fields": [{
+            "name": "tel",
+            "type": "text"
+        }, {
+            "name": "email",
+            "type": "text"
+        }, {
+            "name": "logo",
+            "type": "image"
+        }, {
+            "name": "description",
+            "type": "text"
+        }]
+    }]
+
+}

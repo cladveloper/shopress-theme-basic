@@ -1,0 +1,26 @@
+import Vue from 'vue';
+import LHeader from '@/components/layouts/header';
+import LFooter from '@/components/layouts/footer';
+import LContent from '@/components/layouts/content';
+import LWrapper from '@/components/layouts/wrapper';
+import Llogo from '@/components/layouts/logo';
+import LTitle from '@/components/layouts/title';
+import NavSearch from '@/components/navs/search';
+import NavCategories from '@/components/navs/categories';
+import NavCart from '@/components/navs/cart';
+import LCart from '@/components/layouts/cart';
+import FixedAll from '@/components/layouts/fixed-all';
+import HeaderTitle from '@/components/layouts/header-title';
+
+Vue.component('l-content', LContent);
+Vue.component('l-header', LHeader);
+Vue.component('l-footer', LFooter);
+Vue.component('l-wrapper', LWrapper);
+Vue.component('l-logo', Llogo);
+Vue.component('l-title', LTitle);
+Vue.component('nav-search', NavSearch);
+Vue.component('nav-categories', NavCategories);
+Vue.component('nav-cart', NavCart);
+Vue.component('l-cart', LCart);
+Vue.component('fixed-all', FixedAll);
+Vue.component('header-title', HeaderTitle);
